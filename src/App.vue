@@ -13,11 +13,11 @@
 
 
 <div class="container">
- <div class="item" id="movieinfo">
- <center><h4>한산 : 용의출현</h4></center>
- <img src='./assets/moviefoster.jpg' class="foster">이미지
- <div><center><button> 다른영화 선택하기</button></center></div>
- </div>
+  <div class="item" id="movieinfo">
+  <center><h4>한산 : 용의출현</h4></center>
+  <img src='./assets/moviefoster.jpg' class="foster">
+  <div><center><button> 다른영화 선택하기</button></center></div>
+  </div>
   <div>
     <form>
       <select class="item" v-model="locations" multiple @change="iflocationselected">
@@ -163,4 +163,4 @@ button{
 .foster{
   height: 300px;
 }
-</style>
+</style> 

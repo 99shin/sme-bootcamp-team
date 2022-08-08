@@ -35,21 +35,24 @@ nav{
 }
 .account_section{
   float: left;
+  margin-left: 10%;
 }
 .remind_section{
   float: right;
+  margin-right: 10%;
 }
 .challenging_section{
   float: left;
+  margin-left: 10%;
 }
 .finish_section{
   float: right;
+  margin-right: 10%;
 }
 .top{
-  height: 300px;
+  height: 250px;
 }
 .bottom{
-  height: 300px;
 }
 
 nav {
@@ -64,16 +67,28 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
-.search_challenge{
-  border: 1px solid;
-}
-.back{
+.back {
   position: absolute;
   bottom: 5%;
   left: 5%;
 }
-#back{
+#back {
   height: 50px;
   width: 100px;
+}
+.search_challenge {
+  border: black solid 1px;
+  width: 50%;
+  margin: auto;
+}
+#search_bar {
+  width: 80%;
+  border: white solid 0px;
+}
+.search_challenge_list {
+  border: black solid 1px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
 }
 </style>

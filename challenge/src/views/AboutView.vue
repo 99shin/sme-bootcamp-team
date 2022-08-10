@@ -39,3 +39,35 @@
       </div>
   </div>
 </template>
+  <style scoped>
+.container{
+  padding: 5%;
+  flex-direction: column;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+.account_section{
+  float: left;
+  margin-left: 10%;
+}
+.remind_section{
+  float: right;
+  margin-right: 10%;
+}
+.challenging_section{
+  float: left;
+  margin-left: 10%;
+}
+.finish_section{
+  float: right;
+  margin-right: 10%;
+}
+.top{
+  height: 250px;
+}
+.bottom{
+}
+nav a.router-link-exact-active {
+  color: #42b983;
+}
+  </style>

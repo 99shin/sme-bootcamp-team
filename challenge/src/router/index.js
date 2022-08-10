@@ -21,9 +21,9 @@ const routes = [
     component: () => import('../views/3-2.vue')
   },
   {
-    path: '/3-0',
-    name: '3-0',
-    component: () => import('../views/3-0.vue')
+    path: '/3-1',
+    name: '3-1',
+    component: () => import('../views/3-1.vue')
   }
 ]
 
